@@ -1,0 +1,15 @@
+Source: pdf2svg
+Section: graphics
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 9), autotools-dev, libpoppler-glib-dev, libcairo2-dev, libgtk2.0-dev
+Standards-Version: 3.8.0
+Homepage: http://www.cityinthesky.co.uk/opensource/pdf2svg/
+
+Package: pdf2svg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: converts PDF documents to SVG files (one per page)
+ pdf2svg is a tiny command-line utility using Cairo and Poppler
+ to convert PDF documents into SVG files.  Multi-page PDF can be split up to
+ one SVG per page by passing a file naming specification.

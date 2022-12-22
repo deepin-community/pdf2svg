@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/pdf2svg-$1\.tar\.gz/ \
+  https://github.com/dawbarton/pdf2svg/tags .*/v?(\d\S+)\.tar\.gz

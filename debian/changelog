@@ -1,0 +1,40 @@
+pdf2svg (0.2.3-2) unstable; urgency=medium
+
+  * Orphan the package.
+
+ -- Philipp Kern <pkern@debian.org>  Wed, 12 Aug 2020 20:43:48 +0200
+
+pdf2svg (0.2.3-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #870639)
+  * Adjust copyright location to point to the GitHub repository.
+    (Closes: #762302)
+  * Updated watch file to check GitHub.
+  * Updated Homepage control field.
+  * Move from priority extra to optional.
+
+ -- Philipp Kern <pkern@debian.org>  Sun, 06 Aug 2017 15:40:30 +0200
+
+pdf2svg (0.2.2-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #717345) (LP: #1202635)
+  * Updated debian/watch to point to the new file location.
+  * Drop VCS information from debian/control.
+  * Bump debian/compat to 9 to benefit from proper hardening rules.
+
+ -- Philipp Kern <pkern@debian.org>  Tue, 30 Jul 2013 23:55:05 +0200
+
+pdf2svg (0.2.1-2) unstable; urgency=low
+
+  * Reduce library dependencies by passing -Wl,--as-needed.
+  * Remove superfluous line from debian/copyright.
+  * Add VCS information to debian/control.
+
+ -- Philipp Kern <pkern@debian.org>  Fri, 18 Jul 2008 00:27:29 +0200
+
+pdf2svg (0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #461055)
+
+ -- Philipp Kern <pkern@debian.org>  Wed, 16 Jul 2008 18:12:03 +0200
+
